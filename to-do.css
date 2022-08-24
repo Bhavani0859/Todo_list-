@@ -1,0 +1,109 @@
+
+
+body{
+    height: 100vh;
+    justify-content: center;
+    background-color: black;
+}
+.to-do-container{
+    background-image: url("https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    height:100vh;
+    width:95vw;
+    margin:auto;
+    border-radius:15px;
+    padding:10px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.heading{
+    color: white;
+    font-weight:bold;
+    font-family:sans-serif;
+    text-align:center;
+    
+}
+
+
+#newtask{
+    position: relative;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#taskinfo{
+    width: 75%;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 6px;
+    color: #111115;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#taskinfo:focus{
+    outline:none;
+    border-color: aqua;
+}
+
+#add{
+    width: 20%;
+    height: 35px;
+    border-radius:5px;
+    font-weight: 500;
+    background-color: #7C4DFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+#clearlist{
+    text-align:center;
+    width: 20%;
+    height: 35px;
+    border-radius:5px;
+    font-weight: 500;
+    background-color: #7C4DFF;
+    border: none;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-left: 20px;
+}
+#tasklist{
+    margin: 9px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.task{
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    background-color: #c5e1e6;
+    height: 25px;
+    width: 25vw;
+    margin: 9px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #939697;
+}
+.del{
+    color:#d11a2a;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+   
+}
+.work{
+    color: black;}
